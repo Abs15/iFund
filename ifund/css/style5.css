@@ -1,0 +1,98 @@
+header section
+{
+	
+ 	height: 5em;
+ 	background-color: rgb(132, 128, 128);
+ 	margin: auto;
+  
+}
+
+header section .LS
+{
+	float: right;
+  background-color: #F4A007;
+  opacity: 5;
+  margin-top: 1em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+    width: 13em;
+    padding-top: .8em;
+  height: 2em;
+  padding-bottom: .5em;
+}
+
+header section .LS a
+{
+	font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: georgia;
+  color: #FFFFFF;
+    padding-left: 1em;
+}
+
+header section a img
+{
+	height: 4em;
+  width: 15em;
+  padding-top: .4em;
+    margin: auto;
+  align-self: center;
+}
+
+section
+{
+  height: 34em;
+}
+
+section header
+{
+  width: 4em;
+  font-family: fantasy;
+  color: white;
+  background-color: rgb(17, 242, 17);
+  margin-top: .5em;
+  font-size: 4em;
+  padding-left: .5em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  border-bottom-right-radius: .5em;
+  border-top-right-radius: .5em;
+} 
+
+section .content  img
+{
+   margin-top: 1em;
+  margin-left: -1em;
+  width: 45.2em;
+  float: left;
+  height: 29em;
+}
+
+article
+{
+    /* border: 1px solid; */
+  float: right;
+  width: 40em;
+  margin-top: -31em;
+  height: 28em;
+  border-radius: .5em;
+  color: black;
+  background-color: white;
+}
+
+article .top
+{
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Georgia;
+  padding-left: 3em;
+}
+
+article .inn
+{
+    text-align: justify;
+  text-indent: 2.1em;
+  font-family: Garamond;
+  font-size: 2em;
+}

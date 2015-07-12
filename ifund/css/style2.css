@@ -1,0 +1,288 @@
+header section
+{
+	border: 1px solid rgb(166, 162, 162);
+ 	height: 5em;
+ 	background-color: rgb(132, 128, 128);
+ 	margin: auto;
+  
+}
+
+header section .LS
+{
+	float: right;
+  background-color: #F4A007;
+  opacity: 5;
+  margin-top: 1em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+    width: 13em;
+    padding-top: .8em;
+  height: 2em;
+  padding-bottom: .5em;
+}
+
+header section .LS a
+{
+	font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: georgia;
+  color: #FFFFFF;
+    padding-left: 1em;
+}
+
+header section a img
+{
+	height: 4em;
+  width: 15em;
+  padding-top: .4em;
+    margin: auto;
+  align-self: center;
+}
+
+section
+{
+    border: 1px solid;
+  height: 50em;
+}
+
+section header
+{
+    border: 1px solid;
+  width: 5em;
+  font-family: fantasy;
+  color: white;
+  background-color: rgb(17, 242, 17);
+  margin-top: .5em;
+  font-size: 4em;
+  padding-left: .5em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  border-bottom-right-radius: .5em;
+  border-top-right-radius: .5em;
+} 
+
+section .content
+{
+    border: 0 solid;
+   height: 35em;
+     margin: auto;
+}
+
+section .content .ant
+{
+    border: 1px solid;
+  height: 18em;
+  width: 24em;
+  margin-left: 2em;
+  margin-top: 1.5em;
+  border-radius: 1em;
+  background-color: rgb(6, 160, 240);
+}
+
+section .content .ant img
+{
+    height: 18em;
+  float: left;
+  margin-top: -7em;
+  border-radius: 1em;
+  width: 24em;
+}
+
+section .content .ant ul
+{
+  border: 0 solid;
+  /* height: 3em; */
+  padding-left: 2.3em;
+  font-family: garamond;
+  font-weight: bold;
+  color: rgb(250, 173, 7);
+  background-color: rgb(53, 53, 50);
+  opacity: .9;
+  font-size: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  margin-top: 1em;
+}
+
+section .content .ecn
+{
+  border: 1px solid;
+  height: 18em;
+  width: 24em;
+  margin-left: 29.4em;
+  margin-top: -18.1em;
+  border-radius: 1em;
+  background-color: rgb(6, 160, 240);
+}
+
+section .content .ecn img
+{
+    height: 18em;
+  float: left;
+  margin-top: -7em;
+  border-radius: 1em;
+  width: 24em;
+}
+
+section .content .ecn ul
+{
+  border: 0 solid;
+  /* height: 3em; */
+  padding-left: 1.3em;
+  font-family: garamond;
+  font-weight: bold;
+  color: rgb(250, 173, 7);
+  background-color: rgb(53, 53, 50);
+  opacity: .9;
+  font-size: 1.9em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  margin-top: 1em;
+}
+
+section .content .edu
+{
+  border: 1px solid;
+  height: 18em;
+  width: 24em;
+  margin-left: 57em;
+  margin-top: -18.1em;
+  border-radius: 1em;
+  background-color: rgb(6, 160, 240);
+  float: left;
+}
+
+section .content .edu img
+{
+    height: 18em;
+  float: left;
+  margin-top: -7em;
+  border-radius: 1em;
+  width: 24em;
+}
+
+section .content .edu ul
+{
+  border: 0 solid;
+  /* height: 3em; */
+  padding-left: 3.6em;
+  font-family: garamond;
+  font-weight: bold;
+  color: rgb(250, 173, 7);
+  background-color: rgb(53, 53, 50);
+  opacity: .9;
+  font-size: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  margin-top: 1em;
+}
+
+section .content .hlt
+{
+    border: 1px solid;
+  height: 18em;
+  width: 24em;
+  margin-left: 2em;
+  margin-top: 1.5em;
+  border-radius: 1em;
+  background-color: rgb(6, 160, 240);
+}
+
+section .content .hlt img
+{
+    height: 18em;
+  float: left;
+  margin-top: -7em;
+  border-radius: 1em;
+  width: 24em;
+}
+
+section .content .hlt ul
+{
+  border: 0 solid;
+  /* height: 3em; */
+  padding-left: 3.3em;
+  font-family: garamond;
+  font-weight: bold;
+  color: rgb(250, 173, 7);
+  background-color: rgb(53, 53, 50);
+  opacity: .9;
+  font-size: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  margin-top: 1em;
+}
+
+section .content .sch
+{
+  border: 1px solid;
+  height: 18em;
+  width: 24em;
+  margin-left: 29.4em;
+  margin-top: -18.1em;
+  border-radius: 1em;
+  background-color: rgb(6, 160, 240);
+}
+
+section .content .sch img
+{
+    height: 18em;
+  float: left;
+  margin-top: -7em;
+  border-radius: 1em;
+  width: 24em;
+}
+
+section .content .sch ul
+{
+  border: 0 solid;
+  /* height: 3em; */
+  padding-left: 3.3em;
+  font-family: garamond;
+  font-weight: bold;
+  color: rgb(250, 173, 7);
+  background-color: rgb(53, 53, 50);
+  opacity: .9;
+  font-size: 1.9em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  margin-top: 1em;
+}
+
+section .content .sfc
+{
+  border: 1px solid;
+  height: 18em;
+  width: 24em;
+  margin-left: 57em;
+  margin-top: -18.1em;
+  border-radius: 1em;
+  background-color: rgb(6, 160, 240);
+  float: left;
+}
+
+section .content .sfc img
+{
+    height: 18em;
+  float: left;
+  margin-top: -7em;
+  border-radius: 1em;
+  width: 24em;
+}
+
+section .content .sfc ul
+{
+  border: 0 solid;
+  /* height: 3em; */
+  padding-left: 2.6em;
+  font-family: garamond;
+  font-weight: bold;
+  color: rgb(250, 173, 7);
+  background-color: rgb(53, 53, 50);
+  opacity: .9;
+  font-size: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  margin-top: 1em;
+}

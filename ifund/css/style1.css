@@ -1,0 +1,209 @@
+header section
+{
+	border: 1px solid rgb(166, 162, 162);
+ 	height: 5em;
+ 	background-color: rgb(132, 128, 128);
+ 	margin: auto;
+  
+}
+
+header section .LS
+{
+	float: right;
+  background-color: #F4A007;
+  opacity: 5;
+  margin-top: 1em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+    width: 13em;
+    padding-top: .8em;
+  height: 2em;
+  padding-bottom: .5em;
+}
+
+header section .LS a
+{
+	font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: georgia;
+  color: #FFFFFF;
+    padding-left: 1em;
+}
+
+header section a img
+{
+	height: 4em;
+  width: 15em;
+  padding-top: .4em;
+    margin: auto;
+  align-self: center;
+}
+
+section
+{
+	  margin: auto;
+  position: relative;
+  margin-left: 15em;
+}
+
+section header img
+{
+	  height: 12em;
+  margin-left: 8em;
+  margin-top: .8em;
+
+}
+
+section .Content
+{
+	  border: 0 solid;
+   height: 35em;
+     margin: auto;
+}
+
+section .Content .proj
+{
+	  border: 1px solid;
+  height: 15em;
+  width: 20em;
+  margin-left: 2em;
+  margin-top: 1.5em;
+  border-radius: 1em;
+  background-color: rgb(6, 160, 240);
+}
+
+section .Content .proj img
+{
+
+  height: 15em;
+    height: 16em;
+  float: left;
+  margin-top: -15em;
+}
+
+section .Content .proj ul
+{
+	  border: 0 solid;
+  /* height: 3em; */
+  padding-left: 2.3em;
+  font-family: garamond;
+  font-weight: bold;
+  color: white;
+  background-color: gray;
+  opacity: .9;
+  font-size: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+    margin-top: 5em;
+}
+
+section .Content .inv
+{
+	  border: 1px solid;
+  height: 15em;
+  width: 20em;
+  margin-left: 2em;
+  border-radius: 1em;
+    background-color: rgb(30, 240, 6);
+    float: left;
+  margin-top: -15.2em;
+}
+
+section .Content .inv img
+{
+
+  height: 13.6em;
+  width: 19.8em;
+  float: left;
+  margin-top: -13.5em;
+}
+
+section .Content .inv ul
+{
+	  border: 0 solid;
+  /* height: 3em; */
+  padding-left: 2.3em;
+  font-family: garamond;
+  font-weight: bold;
+  color: white;
+  background-color: gray;
+  opacity: .9;
+  font-size: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+    margin-top: 5em;
+}
+
+section .Content .don
+{
+  border: 1px solid;
+  height: 15em;
+  width: 20em;
+  margin-left: 2em;
+  border-radius: 1em;
+  background-color: rgb(240, 6, 50);
+  margin-top: 2em;
+}
+
+section .Content .don img
+{
+
+  height: 13.6em;
+  width: 19.8em;
+  float: left;
+  margin-top: -13.5em;
+}
+
+section .Content .don ul
+{
+	  border: 0 solid;
+  /* height: 3em; */
+  padding-left: 2.3em;
+  font-family: garamond;
+  font-weight: bold;
+  color: white;
+  background-color: gray;
+  opacity: .9;
+  font-size: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+    margin-top: 5em;
+}
+
+section .Content .abt
+{
+   border: 1px solid;
+  height: 15em;
+  width: 20em;
+  margin-left: 4.7em;
+  border-radius: 1em;
+  background-color: rgb(240, 228, 6);
+  float: left;
+  margin-top: -15.2em;
+}
+
+section .Content .abt img
+{
+  height: 13.6em;
+  width: 19.8em;
+  float: left;
+  margin-top: -13.9em;
+  margin-left: .2em;
+}
+
+section .Content .abt ul
+{
+	  border: 0 solid;
+  /* height: 3em; */
+    padding-left: 2.9em;
+  font-family: garamond;
+  font-weight: bold;
+  color: white;
+  background-color: gray;
+  opacity: .9;
+  font-size: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+    margin-top: 5em;
+}

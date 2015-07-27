@@ -1,0 +1,44 @@
+<!-- 
+Author: Abubakar D. Basman
+Date: 7/27/2015  
+-->
+
+
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<meta charset="UTF-8">
+	<title>Creating a View and Controller</title>
+</head>
+<body>
+	<div class="container" 
+		 ng-init="customers=[{ name:'John Smith', city:'Phoenix' }, 
+		 					 { name:'John Doe', city:'New York' },
+		 					 { name:'Jane Doe', city:'San Francisco' } ]"> 
+		Name: <input type="text" ng-model="name" /> {{ name }}
+
+		<h3>Adding Simple Controller</h3>
+		<ul>
+			<li ng-repeat="cust in customers | filter:name | orderBy"> {{cust.name | uppercase}} - {{cust.city | lowercase}} </li>
+		</ul>
+	</div>
+
+	<script src="Scripts/angular.min.js"></script>
+
+	<script type="text/javascript">
+		function SimpleController($scope)
+		{
+			$scope.customers = 
+			[
+				{ name:'John Smith', city:'Phoenix' }, 
+		 		{ name:'John Doe', city:'New York' },
+		 		{ name:'Jane Doe', city:'San Francisco' },
+		 		{ name:'Thomas Winter', city:'Seattle' }
+			];
+		}
+
+	</script>
+
+	
+</body>
+</html>

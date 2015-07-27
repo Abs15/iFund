@@ -1,0 +1,61 @@
+<!-- 
+Author: Abubakar D. Basman
+Date: 7/27/2015  
+-->
+
+
+<!DOCTYPE html>
+<html ng-app="demoApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Defining Routes</title>
+</head>
+<body>
+	<div class="container" 
+		 ng-init="customers=[{ name:'John Smith', city:'Phoenix' }, 
+		 					 { name:'John Doe', city:'New York' },
+		 					 { name:'Jane Doe', city:'San Francisco' } ]"> 
+		Name: <input type="text" ng-model="name" /> {{ name }}
+
+		<h3>Creating a Controller in a Module</h3>
+		<ul>
+			<li ng-repeat="cust in customers | filter:name | orderBy"> {{cust.name | uppercase}} - {{cust.city | lowercase}} </li>
+		</ul>
+	</div>
+
+	<script src="Scripts/angular.min.js"></script>
+	
+	<script type="text/javascript">
+		var demoApp = angular.module('demoApp', []);
+		demoApp.controller('SimpleController', function ($scope)
+		{
+			$scope.customers = 
+			[
+				{ name:'John Smith', city:'Phoenix' }, 
+		 		{ name:'John Doe', city:'New York' },
+		 		{ name:'Jane Doe', city:'San Francisco' },
+		 		{ name:'Thomas Winter', city:'Seattle' }
+			];
+		});
+
+		demoApp.config(function ($routeProvider)
+		{
+			$routeProvider
+				.when('/',
+				{
+					controller: 'SimpleController',
+					templateUrl: 'Partials/view1.html'
+				})
+				.when('/partial2',
+				{
+					controller: 'SimpleController',
+					templateUrl: 'Partials/view2.html'
+				})
+				.otherwise({ redirectTo: '/' });
+		});
+
+	</script>
+
+	
+</body>
+</html>

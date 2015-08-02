@@ -1,16 +1,63 @@
+/*<!-- 
+Author: Abubakar D. Basman
+Date: 7/12/2015  
+-->*/
+
+body
+{
+  background-color: #E9EAED;
+}
+
 header section
 {
-	border: 1px solid rgb(166, 162, 162);
- 	height: 5em;
- 	background-color: rgb(132, 128, 128);
- 	margin: auto;
+  border: 1px solid rgb(166, 162, 162);
+  height: 5em;
+  background-color: rgb(37, 137, 234);
+  margin: auto;
   
+}
+
+header nav
+{
+  border: 0 solid maroon;
+  border-radius: 3em;
+  width: 57em;
+  height: 3em;
+  margin-left: 13em;
+  background-color: rgba(188, 188, 188, 0.94);
+}
+
+header nav ul
+{
+  height: 2em;
+  padding-top: .5em;
+  margin-top: 0.5px;
+}
+
+header nav ul li
+{
+    float: left; 
+    display: block;
+}
+
+header nav ul li a
+{
+text-decoration: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-size: 1.5em;
+  font-stretch: semi-expanded;
+  font-weight: bold;
+  font-family: arial black;
+  color: white;
 }
 
 header section .LS
 {
-	float: right;
-  background-color: #F4A007;
+  float: right;
+  background-color: #50DD18;;
   opacity: 5;
   margin-top: 1em;
   border-top-left-radius: 1em;
@@ -23,7 +70,7 @@ header section .LS
 
 header section .LS a
 {
-	font-size: 1.4em;
+  font-size: 1.4em;
   font-weight: bold;
   text-decoration: none;
   font-family: georgia;
@@ -33,7 +80,7 @@ header section .LS a
 
 header section a img
 {
-	height: 4em;
+  height: 4em;
   width: 15em;
   padding-top: .4em;
     margin: auto;

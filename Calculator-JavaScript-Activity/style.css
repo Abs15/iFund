@@ -1,0 +1,102 @@
+﻿/*<!-- Author: Abubakar Basman
+Date: 8/2/2015 -->*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Grid units */
+.u1,
+.u2,
+.u3,
+.u4 {
+    float: left;
+    margin: 3px;
+}
+
+.u2 {
+    width: 86px;
+}
+.u3 {
+    width: 132px;
+}
+
+
+.calculator {
+	
+	background-color: #3C4150;
+	border: 1px solid #181A20;
+	float: left;
+	padding: 6px;
+	width: 184px;
+	    margin-left: 34em;
+    margin-top: 4em;
+}
+
+.calculator h1
+{
+	color: white;
+    font-family: sans-serif;
+}
+
+.display {
+	background-color: #17181E;
+	border: 1px solid #181A20;
+	padding: 0 10px;
+	text-align: right;
+	background-color: #17181E;
+    border: 1px solid #181A20;
+    padding: 0 10px;
+    text-align: right;
+    width: 158px;
+    border-radius: 5px;
+}
+.display-text {
+	color: #fff;
+	font-size: 22px;
+	line-height: 42px;
+	overflow: hidden;
+	unicode-bidi: embed;
+	width: 1000px;
+    float: right;
+}
+.display-inner {
+    width: 156px;
+    overflow: hidden;
+}
+.button {
+	border: 1px solid #3C4150;
+    color: #1D1717;
+    cursor: pointer;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 0 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    vertical-align: middle;
+    width: 40px;
+}
+
+
+
